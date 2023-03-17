@@ -1,0 +1,603 @@
+@font-face {
+	font-family: 'trajan_pro';
+	src: url('../font/TrajanPro-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'lamar';
+	src: url('../font/lamar_pen.ttf');
+}
+
+@font-face {
+	font-family: 'lucidaItalic';
+	src: url('../font/LHANDW.TTF');
+}
+
+body {
+	overflow: hidden;
+	background-image: url('../images/table.png');
+	margin: 0;
+	padding: 0;
+
+}
+
+#navbar {
+	background-image: url('../images/ribbon.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 103px;
+	width: 100vw;
+}
+
+#navbar>a {
+	text-decoration: none;
+}
+
+.nav_text {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'trajan_pro';
+	transition: all .5s;
+	cursor: pointer;
+}
+
+.nav_text:hover {
+	transform: scale(1.1);
+}
+
+#left_text_container {
+	position: absolute;
+	top: 20vh;
+	height: 80vh;
+}
+
+#left_text {
+	/*background-color: white;*/
+	width: 45vw;
+}
+
+#name {
+	font-size: 72px;
+	color: #ffcc62;
+	font-family: 'trajan_pro';
+}
+
+#desc {
+	font-size: 28px;
+	color: #ffcc62;
+	font-family: 'trajan_pro';
+}
+
+#instr {
+	color: #ffcc62;
+	font-family: 'trajan_pro';
+}
+
+#right_text {
+	/*background-color: aqua;*/
+	width: 45vw;
+}
+
+#quote {
+	font-size: 24px;
+	color: #ffcc62;
+	font-family: 'trajan_pro';
+}
+
+#instr2 {
+	color: #ffcc62;
+	font-family: 'trajan_pro';
+}
+
+
+/*flipbook structure styles*/
+
+.flipbook-viewport {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	margin-right: 10vw;
+	z-index: 100;
+	top: 20vh;
+}
+
+.flipbook-viewport .container {
+	position: absolute;
+	margin: auto;
+}
+
+.flipbook {
+	right: 5vw;
+}
+
+.flipbook .page {
+	background-image: url('../images/page_texture.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-right: .1px solid black;
+}
+
+/*book front cover PAGE 1 styles*/
+
+#book_front {
+	/*border-radius: 0px 10px 0px 10px;*/
+	background-image: url('../images/front_book.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#title {
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'trajan_pro';
+	padding-top: 5vh;
+}
+
+#author {
+	font-family: 'trajan_pro';
+	font-weight: bold;
+}
+
+.gold_text {
+	background-image: linear-gradient(to right,
+			/*#462523 0,*/
+			#f6f2c0 0,
+			#cb9b51 22%,
+			#f6e27a 45%,
+			#f6f2c0 50%,
+			#f6e27a 55%,
+			#cb9b51 78%,
+			#462523 100%);
+	color: transparent;
+	-webkit-background-clip: text;
+}
+
+/*PAGE 2 STYLES*/
+
+#book_front_opp {
+	background-image: url('../images/book_opp.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+/*PAGE 3 STYLES*/
+
+#first_page {
+	height: 100%;
+}
+
+#first_pic {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+/*PAGE 4 STYLES*/
+
+.first_line {
+	padding-top: 15px;
+}
+
+.para_starter {
+	font-family: 'lamar';
+	font-size: 82px;
+	position: absolute;
+	top: 5px;
+	left: 0;
+
+}
+
+#about_me_main_text {
+	height: 100%;
+}
+
+.diary_text {
+	font-family: 'lucidaItalic';
+	font-size: 22px;
+}
+
+/*PAGE 5 STYLES*/
+
+#tape1 {
+	width: 50px;
+	opacity: 70%;
+	position: absolute;
+	top: 16%;
+	z-index: 50;
+}
+
+#tape2 {
+	width: 50px;
+	opacity: 70%;
+	position: absolute;
+	transform: rotate(1deg);
+	top: 85%;
+	right: 2%;
+	z-index: 50;
+}
+
+#about_me_next_text {
+	height: 100%;
+}
+
+#logo_container {
+	background-color: white;
+	height: 75%;
+	width: 95%;
+	padding: 10px;
+	transform: rotate(-1deg);
+}
+
+.tech_icon {
+	height: 50px;
+	padding: 2px;
+}
+
+/*PAGE 6 STYLES*/
+
+#first_work_page_container {
+	height: 100%;
+}
+
+.first_line_work {
+	padding-top: 40px;
+}
+
+#BED {
+	width: 95%;
+	margin-bottom: 10%;
+	transition: all .5s;
+}
+
+#first_work_page_container>a {
+	text-decoration: inherit;
+	height: 45%;
+	width: 95%;
+	background-color: black;
+}
+
+.first_gallery-link::before {
+    content: "";
+    position: absolute;
+    top: 35%;
+    left: 85%;
+    width: .2rem;
+    /*height: 50%;*/
+    background-color: #fff;
+    height: 0;
+    transition: height .5s;
+    z-index: 10;
+}
+
+.first_gallery-link::after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    /*width: 85%;*/
+    height: .2rem;
+    background-color: #fff;
+    width: 0;
+    transition: width .5s;
+}
+
+.first_project_name {
+	top: 35%;
+	left: 5%;
+	font-family: 'trajan_pro';
+    position: absolute;
+    text-transform: uppercase;
+    color: white;
+    width: 0;
+    overflow: hidden;
+    transition: hover .3s;
+}
+
+
+.first_project_descr {
+	position: absolute;
+	top: 50%;
+	left: 5%;
+	width: 75%;
+	font-family: 'trajan_pro';
+    text-transform: uppercase;
+    color: white;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .3s;
+}
+
+.first_gallery-link:hover .first_project_name {
+	width: 100%;
+    transition: width 1.5s 0.5s;
+}
+
+.first_gallery-link:hover .first_project_img {
+    filter: blur(0.5rem);
+    opacity: 0.5;
+    transform: scale(1.02);
+}
+
+.first_gallery-link:hover .first_project_descr {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 1s 1s;
+}
+
+.first_gallery-link:hover::before {
+    height: 50%;
+}
+
+.first_gallery-link:hover::after {
+    width: 85%;
+}
+
+/*PAGE 7 STYLES*/
+
+#second_work_page_container {
+	height: 100%;
+}
+
+#second_work_page_container>a {
+	text-decoration: inherit;
+	height: 45%;
+	width: 95%;
+	background-color: black;
+}
+
+#FED {
+	height: auto;
+	width: auto;
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: contain;
+	transition: all .5s;
+}
+
+.second_gallery-link::before {
+    content: "";
+    position: absolute;
+    top: 5%;
+    left: 85%;
+    width: .2rem;
+    /*height: 50%;*/
+    background-color: #fff;
+    height: 0;
+    transition: height .5s;
+}
+
+.second_gallery-link::after {
+    content: "";
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    /*width: 85%;*/
+    height: .2rem;
+    background-color: #fff;
+    width: 0;
+    transition: width .5s;
+}
+
+.second_project_name {
+	top: 5%;
+	left: 10%;
+	font-family: 'trajan_pro';
+    position: absolute;
+    text-transform: uppercase;
+    color: white;
+    width: 0;
+    overflow: hidden;
+    transition: hover .3s;
+	z-index: 10;
+}
+
+
+.second_project_descr {
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	width: 72%;
+	font-family: 'trajan_pro';
+    text-transform: uppercase;
+    color: white;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .3s;
+}
+
+.second_gallery-link:hover .second_project_name {
+	width: 100%;
+    transition: width 1.5s 0.5s;
+}
+
+.second_gallery-link:hover .second_project_img {
+    filter: blur(0.5rem);
+    opacity: 0.5;
+    transform: scale(1.02);
+}
+
+.second_gallery-link:hover .second_project_descr {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 1s 1s;
+}
+
+.second_gallery-link:hover::before {
+    height: 40%;
+}
+
+.second_gallery-link:hover::after {
+    width: 80%;
+}
+
+#MAD {
+	height: auto;
+	width: auto;
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: contain;
+	transition: all .5s;
+}
+
+.third_gallery-link::before {
+    content: "";
+    position: absolute;
+    top: 55%;
+    left: 85%;
+    width: .2rem;
+    /*height: 50%;*/
+    background-color: #fff;
+    height: 0;
+    transition: height .5s;
+}
+
+.third_gallery-link::after {
+    content: "";
+    position: absolute;
+    top: 62%;
+    left: 10%;
+    /*width: 85%;*/
+    height: .2rem;
+    background-color: #fff;
+    width: 0;
+    transition: width .5s;
+}
+
+.third_project_name {
+	top: 53%;
+	left: 10%;
+	font-family: 'trajan_pro';
+    position: absolute;
+    text-transform: uppercase;
+    color: white;
+    width: 0;
+    overflow: hidden;
+    transition: hover .3s;
+	z-index: 10;
+}
+
+
+.third_project_descr {
+	position: absolute;
+	top: 65%;
+	left: 10%;
+	width: 72%;
+	font-family: 'trajan_pro';
+    text-transform: uppercase;
+    color: white;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .3s;
+}
+
+.third_gallery-link:hover .third_project_name {
+	width: 100%;
+    transition: width 1.5s 0.5s;
+}
+
+.third_gallery-link:hover .third_project_img {
+    filter: blur(0.5rem);
+    opacity: 0.5;
+    transform: scale(1.02);
+}
+
+.third_gallery-link:hover .third_project_descr {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 1s 1s;
+}
+
+.third_gallery-link:hover::before {
+    height: 40%;
+}
+
+.third_gallery-link:hover::after {
+    width: 80%;
+}
+
+
+
+
+/*PAGE 8 STYLES*/
+
+#conclusion_container {
+	height: 100%;
+	background-image: url('../images/bird.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#conclusion {
+	font-family: 'lamar';
+	font-size: 82px;
+	padding-top: 1rem;
+}
+
+#instr3 {
+	font-family: 'lucidaItalic';
+}
+
+/*PAGE 9 STYLES*/
+
+
+#book_back_opp {
+	background-image: url('../images/book_opp.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/*back cover styles PAGE 10*/
+
+#book_back {
+	background-image: url('../images/back_book.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#contact_details {
+	padding-left: 2vw;
+	padding-top: 2vh;
+}
+
+.back_intro {
+	font-size: 26px;
+	font-weight: bold;
+	font-family: 'trajan_pro';
+}
+
+
+hr {
+	border: 1px solid#ffcc62 !important;
+	width: 40vw;
+	opacity: 80% !important;
+}
+
+.back_text {
+	font-size: 20px;
+	color: #ffcc62;
+	font-family: 'trajan_pro';
+	width: 40vw;
+}
+
+#icon_container {
+	width: 15vw;
+	margin-left: 25%;
+}
+
+.social_icon {
+	width: 40px;
+	transition: all .5s;
+}
+
+.social_icon:hover {
+	transform: scale(1.3);
+}
+
+#copyright {
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
