@@ -1,0 +1,285 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en"> <!--<![endif]-->
+
+<head>
+    <meta name="viewport" content="width = 1050, user-scalable = no" />
+    <script type="text/javascript" src="./extras/jquery.min.1.7.js"></script>
+    <script type="text/javascript" src="./extras/modernizr.2.5.3.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"
+        defer></script>
+</head>
+
+<body>
+
+    <div id="content" class="container-fluid">
+        <div id="navbar" class="row mt-2 container-fluid d-flex flex-row justify-content-evenly align-items-center">
+            <a class="col">
+                <p class="nav_text gold_text pt-1" onclick="home()">HOME</p>
+            </a>
+            <a class="col">
+                <p class="nav_text gold_text pt-1" onclick="about()">ABOUT</p>
+            </a>
+            <a class="col">
+                <p class="nav_text gold_text pt-1" onclick="works()">MY WORKS</p>
+            </a>
+            <a class="col">
+                <p class="nav_text gold_text pt-1" onclick="contact()">CONTACT</p>
+            </a>
+        </div>
+        <div id="left_text_container" class="row container-fluid">
+            <div id="left_text" class="col container-fluid d-flex flex-column justify-content-between ps-5 pe-3">
+                <div class="row mt-1">
+                    <p id="name">CHADRICK<br>LIANG</p>
+                    <p id="desc">AN ASPIRING SOFTWARE DEVELOPER AND TECHNOLOGY ENTHUSIAST.</p>
+                </div>
+                <div class="row">
+                    <p id="instr">SCROLL DOWN OR FLIP TO NAVIGATE.</p>
+                </div>
+            </div>
+
+            <div id="right_text" class="col container-fluid d-flex flex-column justify-content-between ps-5">
+                <div class="row mt-3">
+                    <p id="quote">“THE DESIGNER DOES NOT BEGIN WITH SOME PRECONCEIVED IDEA. RATHER, THE IDEA IS THE
+                        RESULT OF CAREFUL
+                        STUDY
+                        AND OBSERVATION, AND THE DESIGN A PRODUCT OF THAT IDEA.”<br><br>— PAUL RAND
+                    </p>
+                </div>
+                <div class="row">
+                    <p id="instr2">SCROLL UP TO NAVIGATE BACK.</p>
+                </div>
+            </div>
+        </div>
+        <div class="flipbook-viewport">
+            <div class="container">
+                <div class="flipbook">
+
+                    <div id="book_front" class="hard d-flex flex-column justify-content-between text-center">
+                        <div id="title">
+                            <p class="gold_text">AN<br>AUTOBIOGRAPHY</p>
+                        </div>
+                        <p id="author" class="gold_text">WRITTEN AND ILLUSTRATED BY YOURS TRULY</p>
+                    </div>
+
+                    <div id="book_front_opp" class="hard"></div>
+
+                    <div class="page">
+                        <div id="first_page"
+                            class="container-fluid d-flex flex-column justify-content-evenly align-items-center">
+                            <img id="first_pic" src="./images/king_fisher.jpg" />
+                        </div>
+                    </div>
+
+                    <div class="page">
+                        <div id="about_me_main_text" class="container-fluid d-flex flex-column justify-content-evenly">
+                            <p class="diary_text first_line"><span
+                                    class="para_starter">A</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bout me</p>
+                            <p class="diary_text">I am a curious person with an unsatiable thirst for knowlegdge who has
+                                found himself immsersed in the world of programming.</p>
+                            <p class="diary_text">I am perfectionistic, conscientious, organzied and highly independent.
+                            </p>
+                            <p class="diary_text">When I am not clearing my workload, you will find me dabbling in
+                                languages, reading, exercising and photography.</p>
+                        </div>
+                    </div>
+                    <div class="page">
+                        <img id="tape1" src="./images/tape.png" />
+                        <img id="tape2" src="./images/tape.png" />
+                        <div id="about_me_next_text" class="container-fluid d-flex flex-column align-items-center">
+                            <!--<p class="diary_text first_line"><span
+                                    class="para_starter">S</span>&nbsp;&nbsp;&nbsp;&nbsp;ome technologies that I have
+                                experience &nbsp;&nbsp;&nbsp;with are</p>-->
+                            <div id="exp_container" class="d-flex flex-row container-fluid">
+                                <p class="second_para_starter">S</p>
+                                <p class="technology_text">ome technologies that I have
+                                    experience with are</p>
+                            </div>
+                            <div id="logo_container" class="d-flex flex-wrap px-3">
+                                <img class="tech_icon" src="./images/apache.svg.png" />
+                                <img class="tech_icon" src="./images/bootstrap.png" />
+                                <img class="tech_icon" src="./images/css.svg.png" />
+                                <img class="tech_icon" src="./images/express.png" />
+                                <img class="tech_icon" src="./images/html.svg.png" />
+                                <img class="tech_icon" src="./images/javascript.png" />
+                                <img class="tech_icon" src="./images/jQuery.svg.png" />
+                                <img class="tech_icon" src="./images/json.png" />
+                                <img class="tech_icon" src="./images/mysql.png" />
+                                <img class="tech_icon" src="./images/python.png" />
+                                <img class="tech_icon" src="./images/react.png" />
+                                <img class="tech_icon" src="./images/react_native.png" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="page">
+                        <div id="first_work_page_container"
+                            class="container-fluid d-flex flex-column justify-content-between">
+                            <p class="diary_text first_line_work"><span
+                                    class="para_starter">M</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y past works
+                            </p>
+                            <div class="d-flex justify-content-center">
+                                <a href="https://github.com/Chadrick-Liang/movie_database_site"
+                                    class="first_gallery-link">
+                                    <img id="BED" class="first_project_img" src="./images/BED.jpg" />
+                                    <h3 class="first_project_name">Movie&nbsp;Database</h3>
+                                    <p class="first_project_descr">
+                                        It is a movie information website with authentication. Registered users can
+                                        search up movie details stored in the database. It uses a combination of
+                                        mysql,
+                                        jQuery, JSON web token for signing in and an express server.
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page">
+                        <div id="second_work_page_container"
+                            class="container-fluid d-flex flex-column justify-content-evenly align-items-center">
+                            <a href="https://chadrick-liang.github.io/SP_experience_site/"
+                                class="second_gallery-link d-flex justify-content-center">
+                                <img id="FED" class="second_project_img" src="./images/FED.jpg" />
+                                <h3 class="second_project_name">Personal&nbsp;Website</h3>
+                                <p class="second_project_descr">
+                                    It is a personal website that talks about my interests, aspirations and
+                                    experience
+                                    in school. It was created using a combination of bootstrap, html, css and simple
+                                    javascript.
+                                </p>
+                            </a>
+                            <a href="https://github.com/Chadrick-Liang/carbon_emissions_app"
+                                class="third_gallery-link d-flex justify-content-center">
+                                <img id="MAD" class="third_project_img" src="./images/MAD.png" />
+                                <h3 class="third_project_name">Carbon&nbsp;emissions&nbsp;app</h3>
+                                <p class="third_project_descr">
+                                    It is a mobile application that has the potential to track the carbon emissions
+                                    of
+                                    daily activities and compare their monthly emissions with other users. The app
+                                    was
+                                    made with expo and react native, along with other libaries.
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="page">
+                        <div id="conclusion_container"
+                            class="container-fluid d-flex flex-column justify-content-between align-items-center">
+                            <p id="conclusion">The End</p>
+                            <p id="instr3" class="pt-4 ps-3">Scroll down to the back</p>
+                        </div>
+                    </div>
+
+                    <div id="book_back_opp" class="hard"></div>
+
+                    <div id="book_back" class="hard d-flex flex-column justify-content-between text-center">
+                        <div id="contact_details">
+                            <p class="gold_text text-start back_intro">INTERESTED?</p>
+                            <p class="gold_text text-start back_intro">I AM A SIMPLE CLICK AWAY!</p>
+                            <hr>
+                            <p class="text-start back_text">FIND ME ON SOCIAL MEDIA OR THROUGH EMAIL.</p>
+                            <p class="text-start back_text">CHADRICKLIANGJING@GMAIL.COM</p>
+                            <div id="icon_container" class="d-flex flex-row justify-content-between pb-3">
+                                <img class="social_icon" src="./images/instagram.png" />
+                                <img class="social_icon" src="./images/twitter.png" />
+                                <img class="social_icon" src="./images/linkedin.png" />
+                            </div>
+                        </div>
+                        <p id="copyright" class="gold_text">Copyright © 2023 chadrick liang. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+
+        function loadApp() {
+
+            var flipbook = $('.flipbook');
+
+            // Check if the CSS was already loaded
+
+            if (flipbook.width() == 0 || flipbook.height() == 0) {
+                setTimeout(loadApp, 10);
+                return;
+            }
+
+            // Create the flipbook
+
+            $('.flipbook').turn({
+
+                width: '95vw',
+                height: '78vh',
+                // Elevation
+
+                elevation: 50,
+
+                // Enable gradients
+
+                gradients: true,
+
+                // Auto center this flipbook
+
+                autoCenter: false
+
+            });
+        }
+
+        // Load the HTML4 version if there's not CSS transform
+
+        yepnope({
+            test: Modernizr.csstransforms,
+            yep: ['./lib/turn.js'],
+            nope: ['./lib/turn.html4.min.js'],
+            both: ['css/style.css'],
+            complete: loadApp
+        });
+
+        var scrollCounter = 0;
+
+        $(window).bind('mousewheel DOMMouseScroll', function (event) {
+            if (event.originalEvent.wheelDelta > 0 || event.originalEvent.detail < 0) {
+                scrollCounter -= 1;
+                if (scrollCounter % 9 == 0) {
+                    //console.log(`Im flipping left and my scrollCounter is ${scrollCounter}`);
+                    $('.flipbook').turn('previous');
+                }
+            }
+            else {
+                scrollCounter += 1;
+                if (scrollCounter % 9 == 0) {
+                    //console.log(`Im flipping right and my scrollCounter is ${scrollCounter}`);
+                    $('.flipbook').turn('next');
+                }
+            }
+        });
+
+        function home() {
+            $(".flipbook").turn("page", 1);
+        }
+
+        function about() {
+            $(".flipbook").turn("page", 4);
+        }
+
+        function works() {
+            $(".flipbook").turn("page", 6);
+        }
+
+        function contact() {
+            $(".flipbook").turn("page", 10);
+        }
+    </script>
+
+</body>
+
+</html>
