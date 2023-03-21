@@ -1,0 +1,2402 @@
+@keyframes gold_shift {
+
+    1% {
+        background-image: linear-gradient(to right,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    2% {
+        background-image: linear-gradient(to right,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    3% {
+        background-image: linear-gradient(to right,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    4% {
+        background-image: linear-gradient(to right,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    5% {
+        background-image: linear-gradient(to right,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    6% {
+        background-image: linear-gradient(to right,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    7% {
+        background-image: linear-gradient(to right,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    8% {
+        background-image: linear-gradient(to right,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    9% {
+        background-image: linear-gradient(to right,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    10% {
+        background-image: linear-gradient(to right,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    11% {
+        background-image: linear-gradient(to right,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    12% {
+        background-image: linear-gradient(to right,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    13% {
+        background-image: linear-gradient(to right,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    14% {
+        background-image: linear-gradient(to right,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    15% {
+        background-image: linear-gradient(to right,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    16% {
+        background-image: linear-gradient(to right,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    17% {
+        background-image: linear-gradient(to right,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    18% {
+        background-image: linear-gradient(to right,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    19% {
+        background-image: linear-gradient(to right,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    20% {
+        background-image: linear-gradient(to right,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    21% {
+        background-image: linear-gradient(to right,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    22% {
+        background-image: linear-gradient(to right,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    23% {
+        background-image: linear-gradient(to right,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    24% {
+        background-image: linear-gradient(to right,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    25% {
+        background-image: linear-gradient(to right,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    26% {
+        background-image: linear-gradient(to right,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    27% {
+        background-image: linear-gradient(to right,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    28% {
+        background-image: linear-gradient(to right,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    29% {
+        background-image: linear-gradient(to right,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    30% {
+        background-image: linear-gradient(to right,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    31% {
+        background-image: linear-gradient(to right,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    32% {
+        background-image: linear-gradient(to right,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    33% {
+        background-image: linear-gradient(to right,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    34% {
+        background-image: linear-gradient(to right,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    35% {
+        background-image: linear-gradient(to right,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    36% {
+        background-image: linear-gradient(to right,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    37% {
+        background-image: linear-gradient(to right,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    38% {
+        background-image: linear-gradient(to right,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    39% {
+        background-image: linear-gradient(to right,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    40% {
+        background-image: linear-gradient(to right,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    41% {
+        background-image: linear-gradient(to right,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    42% {
+        background-image: linear-gradient(to right,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    43% {
+        background-image: linear-gradient(to right,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    44% {
+        background-image: linear-gradient(to right,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    45% {
+        background-image: linear-gradient(to right,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    46% {
+        background-image: linear-gradient(to right,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    47% {
+        background-image: linear-gradient(to right,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    48% {
+        background-image: linear-gradient(to right,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    49% {
+        background-image: linear-gradient(to right,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    50% {
+        background-image: linear-gradient(to right,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    51% {
+        background-image: linear-gradient(to right,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    52% {
+        background-image: linear-gradient(to right,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    53% {
+        background-image: linear-gradient(to right,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    54% {
+        background-image: linear-gradient(to right,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    55% {
+        background-image: linear-gradient(to right,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    56% {
+        background-image: linear-gradient(to right,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    57% {
+        background-image: linear-gradient(to right,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    58% {
+        background-image: linear-gradient(to right,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    59% {
+        background-image: linear-gradient(to right,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    60% {
+        background-image: linear-gradient(to right,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    61% {
+        background-image: linear-gradient(to right,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    62% {
+        background-image: linear-gradient(to right,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    63% {
+        background-image: linear-gradient(to right,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    64% {
+        background-image: linear-gradient(to right,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    65% {
+        background-image: linear-gradient(to right,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    66% {
+        background-image: linear-gradient(to right,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    67% {
+        background-image: linear-gradient(to right,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    68% {
+        background-image: linear-gradient(to right,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    69% {
+        background-image: linear-gradient(to right,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    70% {
+        background-image: linear-gradient(to right,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    71% {
+        background-image: linear-gradient(to right,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    72% {
+        background-image: linear-gradient(to right,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    73% {
+        background-image: linear-gradient(to right,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    74% {
+        background-image: linear-gradient(to right,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    75% {
+        background-image: linear-gradient(to right,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    76% {
+        background-image: linear-gradient(to right,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    77% {
+        background-image: linear-gradient(to right,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    78% {
+        background-image: linear-gradient(to right,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    79% {
+        background-image: linear-gradient(to right,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    80% {
+        background-image: linear-gradient(to right,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    81% {
+        background-image: linear-gradient(to right,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    82% {
+        background-image: linear-gradient(to right,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    83% {
+        background-image: linear-gradient(to right,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    84% {
+        background-image: linear-gradient(to right,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    85% {
+        background-image: linear-gradient(to right,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    86% {
+        background-image: linear-gradient(to right,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    87% {
+        background-image: linear-gradient(to right,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    88% {
+        background-image: linear-gradient(to right,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    89% {
+        background-image: linear-gradient(to right,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    90% {
+        background-image: linear-gradient(to right,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    91% {
+        background-image: linear-gradient(to right,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    92% {
+        background-image: linear-gradient(to right,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    93% {
+        background-image: linear-gradient(to right,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    94% {
+        background-image: linear-gradient(to right,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    95% {
+        background-image: linear-gradient(to right,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    96% {
+        background-image: linear-gradient(to right,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    97% {
+        background-image: linear-gradient(to right,
+                #dfc485,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    98% {
+        background-image: linear-gradient(to right,
+                #e7d398,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    99% {
+        background-image: linear-gradient(to right,
+                #ead99f,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    100% {
+        background-image: linear-gradient(to right,
+                #ede0a9,
+                #f1e8b3,
+                #f6f2c0,
+                #f6f2c0,
+                #f1e8b3,
+                #ede0a9,
+                #ead99f,
+                #e7d398,
+                #dfc485,
+                #d8b673,
+                #d2a963,
+                #cb9b51,
+                #d2a963,
+                #d8b673,
+                #dfc485,
+                #e7d398,
+                #ead99f);
+        background-size: 15vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
