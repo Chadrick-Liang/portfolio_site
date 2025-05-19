@@ -11,7 +11,6 @@ Scrolling through the site via flip animation.
 ![Screenshot of mid flip](/display_images/flip.png)
 
 # Back page
-Flip card through CSS transform rotateY property.
 
 ![Screenshot of back page](/display_images/back.png)
 
