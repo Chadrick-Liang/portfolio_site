@@ -16,8 +16,8 @@
 }
 
 :root {
-  /* fallback */
-  --vh: 1vh;
+	/* fallback */
+	--vh: 1vh;
 }
 
 #rotate-overlay {
@@ -26,7 +26,7 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba(0, 0, 0, 1);
 	color: white;
 	display: flex;
 	align-items: center;
@@ -42,18 +42,19 @@
 		visibility: visible;
 	}
 }
+
 html {
-  background: url('../images/table.png') no-repeat center center fixed;
-  background-size: cover;
+	background: url('../images/table.png') no-repeat center center fixed;
+	background-size: cover;
 	height: 100%;
 	visibility: hidden;
 }
 
 html.loaded {
 	background: url('../images/table.png') no-repeat center center fixed;
-  background-size: cover;
+	background-size: cover;
 	height: 100%;
-  visibility: visible;
+	visibility: visible;
 }
 
 body {
@@ -64,7 +65,7 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-  height: 100%;
+	height: 100%;
 }
 
 #content {
@@ -691,7 +692,7 @@ hr {
 	text-transform: uppercase;
 }
 
-#content, .flipbook-viewport {
-  /* fill the true viewport height */
-  height: calc(var(--vh) * 100);
+#content,
+.flipbook-viewport {
+	height: calc(var(--vh) * 100);
 }
