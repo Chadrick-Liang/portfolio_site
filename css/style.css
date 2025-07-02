@@ -15,6 +15,11 @@
 	src: url('../font/LHANDW.TTF');
 }
 
+:root {
+  /* fallback */
+  --vh: 1vh;
+}
+
 #rotate-overlay {
 	position: fixed;
 	top: 0;
@@ -156,9 +161,9 @@ body {
 	display: flex;
 	justify-content: center;
 	position: absolute;
-	margin-right: 10vw;
 	z-index: 100;
 	top: 20vh;
+	right: 10vw;
 }
 
 .flipbook-viewport .container {
@@ -166,9 +171,9 @@ body {
 	margin: auto;
 }
 
-.flipbook {
-	right: 5vw;
-}
+/*.flipbook {
+	right: 50vw;
+}*/
 
 .flipbook .page {
 	background-image: url('../images/page_texture.png');
@@ -684,4 +689,9 @@ hr {
 	font-size: 10px;
 	font-weight: bold;
 	text-transform: uppercase;
+}
+
+#content, .flipbook-viewport {
+  /* fill the true viewport height */
+  height: calc(var(--vh) * 100);
 }

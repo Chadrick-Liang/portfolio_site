@@ -147,8 +147,6 @@
             });
         }
 
-        //$(document).ready(loadApp);
-
 
         // Load the HTML4 version if there's not CSS transform
 
@@ -198,6 +196,30 @@
         window.addEventListener('load', function () {
             document.documentElement.classList.add('loaded');
         }, false);
+
+        function updateVh() {
+            document.documentElement.style.setProperty(
+                '--vh',
+                `${window.innerHeight * 0.01}px`
+            );
+        }
+        window.addEventListener('resize', updateVh);
+        window.addEventListener('orientationchange', updateVh);
+        updateVh();
+
+        window.addEventListener('resize', () => {
+
+            // Optionally: show a quick spinner or overlay here
+            location.reload();
+
+        });
+
+        window.addEventListener('orientationchange', () => {
+
+            // Optionally: show a quick spinner or overlay here
+            location.reload();
+
+        });
     </script>
 
 </body>
