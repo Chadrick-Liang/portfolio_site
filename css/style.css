@@ -76,7 +76,7 @@ body {
 	touch-action: pan-y;
 }
 
-@media screen and (min-width: 768px) {
+/*@media screen and (min-width: 768px) {
 	html, body {
     overflow: hidden;
     height: 100vh;
@@ -89,6 +89,30 @@ body {
 
 @media screen and (max-width: 767px) {
 	html,
+	body {
+		overflow-y: auto;
+		height: auto;
+	}
+	
+	#content {
+    overflow-y: auto;
+  }
+}*/
+
+@media (pointer: fine) {
+  html, body {
+    overflow: hidden;
+    height: 100vh;
+  }
+
+	#content {
+		overflow: hidden;
+	}
+}
+
+/* On coarse‐pointer devices (touchscreens), allow scroll */
+@media (pointer: coarse) {
+  html,
 	body {
 		overflow-y: auto;
 		height: auto;
