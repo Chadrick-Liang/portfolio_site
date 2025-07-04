@@ -70,11 +70,6 @@ body {
 	height: 100dvh;
 }
 
-@media screen and (max-width: 767px) and (orientation: landscape) {
-  body {
-    overflow-y: auto;
-  }
-}
 
 #content {
 	height: 100%;
