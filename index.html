@@ -192,10 +192,12 @@
             document.documentElement.classList.add('loaded');
         }, false);
 
-        /*window.addEventListener('resize', () => {
-            location.reload();
+        window.addEventListener('resize', () => {
+            if (window.innerWidth >= 768) {
+                location.reload();
+            }
 
-        });*/
+        });
 
         window.addEventListener('orientationchange', () => {
             location.reload();
