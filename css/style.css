@@ -111,7 +111,7 @@ body {
 }
 
 /* On coarse‐pointer devices (touchscreens), allow scroll */
-@media (pointer: coarse) and (max-height: 767px){
+@media (pointer: coarse) and (max-device-width: 767px){
   html,
 	body {
 		overflow-y: auto;
