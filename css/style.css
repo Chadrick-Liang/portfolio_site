@@ -46,14 +46,14 @@
 html {
 	background: url('../images/table.png') no-repeat center center fixed;
 	background-size: cover;
-	height: 100%;
+	height: 100dvh;
 	visibility: hidden;
 }
 
 html.loaded {
 	background: url('../images/table.png') no-repeat center center fixed;
 	background-size: cover;
-	height: 100%;
+	height: 100dvh;
 	visibility: visible;
 }
 
@@ -65,7 +65,7 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	height: 100%;
+	height: 100dvh;
 }
 
 #content {
@@ -88,7 +88,8 @@ body {
 
 .nav_text {
 	/*font-size: 30px;*/
-	font-size: clamp(1rem, 6vh, 2.5rem);
+	/*font-size: clamp(1rem, 6vh, 2.5rem);*/
+	font-size: clamp(1rem, 3vw, 3rem);
 	font-weight: bold;
 	font-family: 'trajan_pro';
 	transition: all .5s;
@@ -142,7 +143,7 @@ body {
 
 #quote {
 	/*font-size: 20px;*/
-	font-size: clamp(1rem, 2vw, 1.75rem);
+	font-size: clamp(0.5rem, 2vw, 1.75rem);
 	color: #ffcc62;
 	font-family: 'trajan_pro';
 }
@@ -164,17 +165,13 @@ body {
 	position: absolute;
 	z-index: 100;
 	top: 20vh;
-	right: 10vw;
+	right: 5vw;
 }
 
 .flipbook-viewport .container {
 	position: absolute;
-	margin: auto;
+	/*margin: auto;*/
 }
-
-/*.flipbook {
-	right: 50vw;
-}*/
 
 .flipbook .page {
 	background-image: url('../images/page_texture.png');
@@ -195,7 +192,8 @@ body {
 }
 
 #title {
-	font-size: 50px;
+	/*font-size: clamp(1rem, 5vw, 4.5rem);*/
+	font-size: clamp(1rem, 3vw, 3rem);
 	font-weight: bold;
 	font-family: 'trajan_pro';
 	padding-top: 5vh;
@@ -204,6 +202,7 @@ body {
 #author {
 	font-family: 'trajan_pro';
 	font-weight: bold;
+	font-size: clamp(0.5rem, 1vw, 1rem);
 }
 
 .gold_text {
@@ -249,17 +248,9 @@ body {
 
 /*PAGE 4 STYLES*/
 
-.first_line {
-	padding-top: 15px;
-}
-
 .para_starter {
 	font-family: 'lamar';
-	font-size: 82px;
-	position: absolute;
-	top: 5px;
-	left: 0;
-
+	font-size: 2.5rem;
 }
 
 #about_me_main_text {
@@ -268,13 +259,13 @@ body {
 
 .diary_text {
 	font-family: 'lucidaItalic';
-	font-size: 22px;
+	font-size: clamp(0.3rem, 1.2vw, 1.5rem);
 }
 
 /*PAGE 5 STYLES*/
 
 #tape1 {
-	width: 50px;
+	width: 10dvh;
 	opacity: 70%;
 	position: absolute;
 	top: 16%;
@@ -282,12 +273,12 @@ body {
 }
 
 #tape2 {
-	width: 50px;
+	width: 10dvh;
 	opacity: 70%;
 	position: absolute;
 	transform: rotate(1deg);
 	top: 85%;
-	right: 2%;
+	right: 5%;
 	z-index: 50;
 }
 
@@ -301,14 +292,17 @@ body {
 }
 
 .second_para_starter {
+	/*font-family: 'lamar';
+	font-size: 82px;*/
 	font-family: 'lamar';
-	font-size: 82px;
+	font-size: 2rem;
 }
 
 .technology_text {
+	/*font-family: 'lucidaItalic';
+	font-size: 22px;*/
 	font-family: 'lucidaItalic';
-	font-size: 22px;
-	padding-left: 2rem;
+	font-size: clamp(0.3rem, 1.2vw, 1.5rem);
 }
 
 #logo_container {
@@ -320,52 +314,79 @@ body {
 }
 
 .tech_icon {
-	height: 50px;
+	/*height: 50px;*/
+	height: 6dvh;
 	padding: 2px;
 }
 
+
+
 /*PAGE 6 STYLES*/
+
+/*.header {
+	position: absolute;
+	font-family: 'lucidaItalic';
+	font-size: clamp(0.75rem, 2vw, 1.5rem);
+}*/
+.header {
+	position: absolute;
+}
+
+
+#BED {
+	height: auto;
+	width: auto;
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: contain;
+	transition: all .5s;
+}
 
 #first_work_page_container {
 	height: 100%;
 }
 
-.first_line_work {
-	padding-top: 40px;
-}
-
-#BED {
-	width: 95%;
-	margin-bottom: 10%;
-	transition: all .5s;
-}
-
 #first_work_page_container>a {
 	text-decoration: inherit;
-	height: 45%;
+	height: 80%;
 	width: 95%;
 	background-color: black;
 }
 
-.first_gallery-link::before {
+/*.first_line_work {
+	padding-top: 3dvh;
+}*/
+
+/*#BED {
+	width: 95%;
+	margin-bottom: 10%;
+	transition: all .5s;
+}*/
+
+/*#first_work_page_container>a {
+	text-decoration: inherit;
+	height: 45%;
+	width: 95%;
+	background-color: black;
+}*/
+
+/*.gallery-link::before {
 	content: "";
 	position: absolute;
 	top: 35%;
 	left: 85%;
 	width: .2rem;
-	/*height: 50%;*/
 	background-color: #fff;
 	height: 0;
 	transition: height .5s;
 	z-index: 10;
 }
 
-.first_gallery-link::after {
+.gallery-link::after {
 	content: "";
 	position: absolute;
 	top: 45%;
 	left: 5%;
-	/*width: 85%;*/
 	height: .2rem;
 	background-color: #fff;
 	width: 0;
@@ -376,6 +397,7 @@ body {
 	top: 35%;
 	left: 5%;
 	font-family: 'trajan_pro';
+	font-size: clamp(0.5rem, 2vw, 1.75rem);
 	position: absolute;
 	text-transform: uppercase;
 	color: white;
@@ -391,6 +413,7 @@ body {
 	left: 5%;
 	width: 75%;
 	font-family: 'trajan_pro';
+	font-size: clamp(0.3rem, 1vw, 1.5rem);
 	text-transform: uppercase;
 	color: white;
 	opacity: 0;
@@ -398,30 +421,30 @@ body {
 	transition: opacity .3s;
 }
 
-.first_gallery-link:hover .first_project_name {
+.gallery-link:hover .first_project_name {
 	width: 100%;
 	transition: width 1.5s 0.5s;
 }
 
-.first_gallery-link:hover .first_project_img {
+.gallery-link:hover .first_project_img {
 	filter: blur(0.5rem);
 	opacity: 0.5;
 	transform: scale(1.02);
 }
 
-.first_gallery-link:hover .first_project_descr {
+.gallery-link:hover .first_project_descr {
 	opacity: 1;
 	visibility: visible;
 	transition: opacity 1s 1s;
 }
 
-.first_gallery-link:hover::before {
+.gallery-link:hover::before {
 	height: 50%;
 }
 
-.first_gallery-link:hover::after {
+.gallery-link:hover::after {
 	width: 85%;
-}
+}*/
 
 /*PAGE 7 STYLES*/
 
@@ -431,12 +454,17 @@ body {
 
 #second_work_page_container>a {
 	text-decoration: inherit;
-	height: 45%;
+	height: 80%;
 	width: 95%;
 	background-color: black;
 }
 
-#FED {
+.note {
+	position: absolute;
+	right: 0;
+}
+
+#Glotto {
 	height: auto;
 	width: auto;
 	max-height: 100%;
@@ -445,10 +473,10 @@ body {
 	transition: all .5s;
 }
 
-.second_gallery-link::before {
+.gallery-link::before {
 	content: "";
 	position: absolute;
-	top: 5%;
+	top: 10%;
 	left: 85%;
 	width: .2rem;
 	/*height: 50%;*/
@@ -457,10 +485,10 @@ body {
 	transition: height .5s;
 }
 
-.second_gallery-link::after {
+.gallery-link::after {
 	content: "";
 	position: absolute;
-	top: 15%;
+	top: 30%;
 	left: 10%;
 	/*width: 85%;*/
 	height: .2rem;
@@ -469,95 +497,11 @@ body {
 	transition: width .5s;
 }
 
-.second_project_name {
-	top: 5%;
-	left: 10%;
-	font-family: 'trajan_pro';
-	position: absolute;
-	text-transform: uppercase;
-	color: white;
-	width: 0;
-	overflow: hidden;
-	transition: hover .3s;
-	z-index: 10;
-}
-
-
-.second_project_descr {
-	position: absolute;
+.project_name {
 	top: 20%;
 	left: 10%;
-	width: 72%;
 	font-family: 'trajan_pro';
-	text-transform: uppercase;
-	color: white;
-	opacity: 0;
-	visibility: hidden;
-	transition: opacity .3s;
-}
-
-.second_gallery-link:hover .second_project_name {
-	width: 100%;
-	transition: width 1.5s 0.5s;
-}
-
-.second_gallery-link:hover .second_project_img {
-	filter: blur(0.5rem);
-	opacity: 0.5;
-	transform: scale(1.02);
-}
-
-.second_gallery-link:hover .second_project_descr {
-	opacity: 1;
-	visibility: visible;
-	transition: opacity 1s 1s;
-}
-
-.second_gallery-link:hover::before {
-	height: 40%;
-}
-
-.second_gallery-link:hover::after {
-	width: 80%;
-}
-
-#MAD {
-	height: auto;
-	width: auto;
-	max-height: 100%;
-	max-width: 100%;
-	object-fit: contain;
-	transition: all .5s;
-}
-
-.third_gallery-link::before {
-	content: "";
-	position: absolute;
-	top: 55%;
-	left: 85%;
-	width: .2rem;
-	/*height: 50%;*/
-	background-color: #fff;
-	height: 0;
-	transition: height .5s;
-}
-
-.third_gallery-link::after {
-	content: "";
-	position: absolute;
-	top: 62%;
-	left: 10%;
-	/*width: 85%;*/
-	height: .2rem;
-	background-color: #fff;
-	width: 0;
-	transition: width .5s;
-}
-
-.third_project_name {
-	top: 53%;
-	left: 10%;
-	font-family: 'trajan_pro';
+	font-size: clamp(0.5rem, 2vw, 1.75rem);
 	position: absolute;
 	text-transform: uppercase;
 	color: white;
@@ -568,12 +512,13 @@ body {
 }
 
 
-.third_project_descr {
+.project_descr {
 	position: absolute;
-	top: 65%;
+	top: 35%;
 	left: 10%;
 	width: 72%;
 	font-family: 'trajan_pro';
+	font-size: clamp(0.3rem, 1vw, 1.5rem);
 	text-transform: uppercase;
 	color: white;
 	opacity: 0;
@@ -581,35 +526,81 @@ body {
 	transition: opacity .3s;
 }
 
-.third_gallery-link:hover .third_project_name {
+.gallery-link:hover .project_name {
 	width: 100%;
 	transition: width 1.5s 0.5s;
 }
 
-.third_gallery-link:hover .third_project_img {
+.gallery-link:hover .project_img {
 	filter: blur(0.5rem);
 	opacity: 0.5;
 	transform: scale(1.02);
 }
 
-.third_gallery-link:hover .third_project_descr {
+.gallery-link:hover .project_descr {
 	opacity: 1;
 	visibility: visible;
 	transition: opacity 1s 1s;
 }
 
-.third_gallery-link:hover::before {
-	height: 40%;
+.gallery-link:hover::before {
+	height: 80%;
 }
 
-.third_gallery-link:hover::after {
+.gallery-link:hover::after {
 	width: 80%;
 }
-
-
 
 
 /*PAGE 8 STYLES*/
+
+
+#third_work_page_container {
+	height: 100%;
+}
+
+#third_work_page_container>a {
+	text-decoration: inherit;
+	height: 80%;
+	width: 95%;
+	background-color: black;
+}
+
+#Enviro {
+	height: auto;
+	width: auto;
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: contain;
+	transition: all .5s;
+}
+
+
+
+/*PAGE 9 STYLES*/
+#fourth_work_page_container {
+	height: 100%;
+}
+
+#fourth_work_page_container>a {
+	text-decoration: inherit;
+	height: 80%;
+	width: 95%;
+	background-color: black;
+}
+
+#Predictor {
+	height: auto;
+	width: auto;
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: contain;
+	transition: all .5s;
+}
+
+
+
+/*PAGE 10 STYLES*/
 
 #conclusion_container {
 	height: 100%;
@@ -620,15 +611,17 @@ body {
 
 #conclusion {
 	font-family: 'lamar';
-	font-size: 82px;
+	/*font-size: 82px;*/
+	font-size: clamp(1rem, 3vw, 3rem);
 	padding-top: 1rem;
 }
 
-#instr3 {
+.instr3 {
 	font-family: 'lucidaItalic';
+	font-size: clamp(0.5rem, 1vw, 1rem);
 }
 
-/*PAGE 9 STYLES*/
+/*PAGE 11 STYLES*/
 
 
 #book_back_opp {
@@ -638,7 +631,7 @@ body {
 }
 
 
-/*back cover styles PAGE 10*/
+/*back cover styles PAGE 12*/
 
 #book_back {
 	background-image: url('../images/back_book.png');
@@ -653,7 +646,8 @@ body {
 }
 
 .back_intro {
-	font-size: 26px;
+	/*font-size: 26px;*/
+	font-size: clamp(0.5rem, 2vw, 1.75rem);
 	font-weight: bold;
 	font-family: 'trajan_pro';
 }
@@ -666,7 +660,8 @@ hr {
 }
 
 .back_text {
-	font-size: 20px;
+	/*font-size: 20px;*/
+	font-size: clamp(0.5rem, 1.2vw, 1.5rem);
 	color: #ffcc62;
 	font-family: 'trajan_pro';
 	width: 40vw;
@@ -678,13 +673,15 @@ hr {
 }
 
 .social_icon {
-	width: 40px;
+	max-width: 10dvh;
 	transition: all .5s;
 }
 
 .social_icon:hover {
 	transform: scale(1.3);
 }
+
+
 
 #copyright {
 	font-size: 10px;

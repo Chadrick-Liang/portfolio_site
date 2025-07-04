@@ -1,10 +1,5 @@
 <!doctype html>
-<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!-->
-<html lang="en"> <!--<![endif]-->
+<html lang="en">
 
 <head>
     <!--<meta name="viewport" content="width = 1050, user-scalable = no" />-->
@@ -49,24 +44,24 @@
         </div>
 
         <!-- TEXT SECTIONS -->
-        <div id="text-section" class="row mt-2">
+        <div id="text-section" class="row mt-1">
             <!-- Left column -->
-            <div id="left_text" class="col-12 col-md-6 d-flex flex-column justify-content-between ps-5 py-3">
-                <p id="name">CHADRICK<br>LIANG</p>
-                <p id="desc">AN ASPIRING SOFTWARE DEVELOPER AND TECHNOLOGY ENTHUSIAST.</p>
-                <p id="instr">SCROLL DOWN OR CLICK & DRAG OR JUST CLICK THE PAGE TO NAVIGATE.</p>
+            <div id="left_text" class="col-12 col-md-6 d-flex flex-column justify-content-between ps-5 py-2">
+                <p id="name" class="px-5">CHADRICK<br>LIANG</p>
+                <p id="desc" class="px-5">AN ASPIRING SOFTWARE DEVELOPER AND TECHNOLOGY ENTHUSIAST.</p>
+                <p id="instr" class="px-5">SCROLL DOWN OR CLICK & DRAG OR JUST CLICK THE PAGE TO NAVIGATE.</p>
             </div>
 
             <!-- Right column -->
             <div id="right_text" class="col-12 col-md-6 d-flex flex-column justify-content-between px-5 py-3">
                 <div>
-                    <p id="quote">
+                    <p id="quote" class="px-3">
                         “EVEN IF IT IS GOOD TO BELIEVE THAT WHAT ONE LIVES IN IS A BEAUTIFUL DREAM,
                         IT IS EVEN BETTER TO CONSCIOUSLY KNOW THAT IT IS IN A DREAM THAT ONE LIVES,
                         ABOVE ALL WHEN THAT DREAM IS SOMEONE ELSE’S DREAM.”
                     </p>
                 </div>
-                <p id="instr2">SCROLL UP TO NAVIGATE BACK.</p>
+                <p id="instr2" class="px-3">SCROLL UP TO NAVIGATE BACK.</p>
             </div>
         </div>
 
@@ -112,7 +107,7 @@
 
         function loadApp() {
             const $flipbook = $('.flipbook');
-            const TOTAL_PAGES = 10;
+            const TOTAL_PAGES = 12;
 
             //Prepare to store each page’s HTML
             const pageHTML = {};
@@ -129,9 +124,9 @@
                 requests.push(req);
             }
 
-            // 2) When all are done, append in order, then turn the book
+            // When all are done, append in order, then turn the book
             $.when.apply($, requests).then(() => {
-                // Append page1, then page2, … in the correct sequence
+                // Append page1, then page2, in the correct sequence
                 for (let i = 1; i <= TOTAL_PAGES; i++) {
                     $flipbook.append(pageHTML[i]);
                 }
@@ -163,14 +158,14 @@
         $(window).bind('mousewheel DOMMouseScroll', function (event) {
             if (event.originalEvent.wheelDelta > 0 || event.originalEvent.detail < 0) {
                 scrollCounter -= 1;
-                if (scrollCounter % 9 == 0) {
+                if (scrollCounter % 5 == 0) {
                     //console.log(`Im flipping left and my scrollCounter is ${scrollCounter}`);
                     $('.flipbook').turn('previous');
                 }
             }
             else {
                 scrollCounter += 1;
-                if (scrollCounter % 9 == 0) {
+                if (scrollCounter % 5 == 0) {
                     //console.log(`Im flipping right and my scrollCounter is ${scrollCounter}`);
                     $('.flipbook').turn('next');
                 }
@@ -190,33 +185,19 @@
         }
 
         function contact() {
-            $(".flipbook").turn("page", 10);
+            $(".flipbook").turn("page", 12);
         }
 
         window.addEventListener('load', function () {
             document.documentElement.classList.add('loaded');
         }, false);
 
-        function updateVh() {
-            document.documentElement.style.setProperty(
-                '--vh',
-                `${window.innerHeight * 0.01}px`
-            );
-        }
-        window.addEventListener('resize', updateVh);
-        window.addEventListener('orientationchange', updateVh);
-        updateVh();
-
         window.addEventListener('resize', () => {
-
-            // Optionally: show a quick spinner or overlay here
             location.reload();
 
         });
 
         window.addEventListener('orientationchange', () => {
-
-            // Optionally: show a quick spinner or overlay here
             location.reload();
 
         });
