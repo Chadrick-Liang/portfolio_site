@@ -103,7 +103,6 @@
         window.addEventListener('orientationchange', () => {
             // Overlay visibility is handled by CSS
             console.log('Orientation changed to', screen.orientation.type);
-            document.body.style.overflowY = "auto";
         });
 
         function loadApp() {
@@ -199,7 +198,6 @@
         });
 
         window.addEventListener('orientationchange', () => {
-            document.body.style.overflowY = "auto";
             location.reload();
 
         });

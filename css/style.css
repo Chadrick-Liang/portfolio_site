@@ -60,7 +60,7 @@ html.loaded {
 }
 
 body {
-	overflow: hidden;
+	overflow: auto;
 	background-image: url('../images/table.png');
 	background-repeat: no-repeat;
 	background-size: cover;
