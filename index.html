@@ -192,8 +192,10 @@
             document.documentElement.classList.add('loaded');
         }, false);
 
+        const hasCoarsePointer = window.matchMedia('(pointer: coarse)').matches;
+
         window.addEventListener('resize', () => {
-            if (window.innerWidth >= 768) {
+            if (!hasCoarsePointer) {
                 location.reload();
             }
 
