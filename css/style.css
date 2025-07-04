@@ -46,7 +46,6 @@
 html {
 	background: url('../images/table.png') no-repeat center center fixed;
 	background-size: cover;
-	height: 100vh;
 	width: 100vw;
 	visibility: hidden;
 }
@@ -54,7 +53,6 @@ html {
 html.loaded {
 	background: url('../images/table.png') no-repeat center center fixed;
 	background-size: cover;
-	height: 100vh;
 	width: 100vw;
 	visibility: visible;
 }
@@ -67,12 +65,12 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100vw;
-	height: 100vh;
 }
 
 
 #content {
-	height: 100%;
+	min-height: 100vh;
+	overflow-y: auto;
 }
 
 #navbar {
