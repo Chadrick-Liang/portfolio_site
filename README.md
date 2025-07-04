@@ -15,4 +15,4 @@ Scrolling through the site via flip animation.
 ![Screenshot of back page](/display_images/back.png)
 
 
-Simply download the repo and double click on index.html.
+Simply click on [this link](https://chadrick-liang.github.io/portfolio_site/)

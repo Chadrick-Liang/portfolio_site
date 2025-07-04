@@ -15,11 +15,6 @@
 	src: url('../font/LHANDW.TTF');
 }
 
-:root {
-	/* fallback */
-	--vh: 1vh;
-}
-
 #rotate-overlay {
 	position: fixed;
 	top: 0;
@@ -76,54 +71,6 @@ body {
 	touch-action: pan-y;
 }
 
-/*@media screen and (min-width: 768px) {
-	html, body {
-    overflow: hidden;
-    height: 100vh;
-  }
-
-	#content {
-		overflow: hidden;
-	}
-}
-
-@media screen and (max-width: 767px) {
-	html,
-	body {
-		overflow-y: auto;
-		height: auto;
-	}
-	
-	#content {
-    overflow-y: auto;
-  }
-}*/
-
-/*@media (pointer: fine) {
-  html, body {
-    overflow: hidden;
-    height: 100vh;
-  }
-
-	#content {
-		overflow: hidden;
-	}
-}
-
- On coarse‐pointer devices (touchscreens), allow scroll 
-@media (pointer: coarse) and (max-width: 767px),
-       (pointer: coarse) and (max-height: 767px){
-  html,
-	body {
-		overflow-y: auto;
-		height: auto;
-	}
-	
-	#content {
-    overflow-y: auto;
-  }
-}*/
-
 #navbar {
 	background-image: url('../images/ribbon.png');
 	background-repeat: no-repeat;
@@ -156,12 +103,6 @@ body {
 	width: 100%;
 	height: 80vh
 }
-
-/*#left_text_container {
-	position: absolute;
-	top: 20vh;
-	height: 80vh;
-}*/
 
 #left_text {
 	/*background-color: white;*/
@@ -400,126 +341,6 @@ body {
 	background-color: black;
 }
 
-/*.first_line_work {
-	padding-top: 3dvh;
-}*/
-
-/*#BED {
-	width: 95%;
-	margin-bottom: 10%;
-	transition: all .5s;
-}*/
-
-/*#first_work_page_container>a {
-	text-decoration: inherit;
-	height: 45%;
-	width: 95%;
-	background-color: black;
-}*/
-
-/*.gallery-link::before {
-	content: "";
-	position: absolute;
-	top: 35%;
-	left: 85%;
-	width: .2rem;
-	background-color: #fff;
-	height: 0;
-	transition: height .5s;
-	z-index: 10;
-}
-
-.gallery-link::after {
-	content: "";
-	position: absolute;
-	top: 45%;
-	left: 5%;
-	height: .2rem;
-	background-color: #fff;
-	width: 0;
-	transition: width .5s;
-}
-
-.first_project_name {
-	top: 35%;
-	left: 5%;
-	font-family: 'trajan_pro';
-	font-size: clamp(0.5rem, 2vw, 1.75rem);
-	position: absolute;
-	text-transform: uppercase;
-	color: white;
-	width: 0;
-	overflow: hidden;
-	transition: hover .3s;
-}
-
-
-.first_project_descr {
-	position: absolute;
-	top: 50%;
-	left: 5%;
-	width: 75%;
-	font-family: 'trajan_pro';
-	font-size: clamp(0.3rem, 1vw, 1.5rem);
-	text-transform: uppercase;
-	color: white;
-	opacity: 0;
-	visibility: hidden;
-	transition: opacity .3s;
-}
-
-.gallery-link:hover .first_project_name {
-	width: 100%;
-	transition: width 1.5s 0.5s;
-}
-
-.gallery-link:hover .first_project_img {
-	filter: blur(0.5rem);
-	opacity: 0.5;
-	transform: scale(1.02);
-}
-
-.gallery-link:hover .first_project_descr {
-	opacity: 1;
-	visibility: visible;
-	transition: opacity 1s 1s;
-}
-
-.gallery-link:hover::before {
-	height: 50%;
-}
-
-.gallery-link:hover::after {
-	width: 85%;
-}*/
-
-/*PAGE 7 STYLES*/
-
-#second_work_page_container {
-	height: 100%;
-}
-
-#second_work_page_container>a {
-	text-decoration: inherit;
-	height: 80%;
-	width: 95%;
-	background-color: black;
-}
-
-.note {
-	position: absolute;
-	right: 0;
-}
-
-#Glotto {
-	height: auto;
-	width: auto;
-	max-height: 100%;
-	max-width: 100%;
-	object-fit: contain;
-	transition: all .5s;
-}
-
 .gallery-link::before {
 	content: "";
 	position: absolute;
@@ -553,7 +374,7 @@ body {
 	text-transform: uppercase;
 	color: white;
 	width: 0;
-	/*overflow: hidden;*/
+	overflow: hidden !important;
 	transition: hover .3s;
 	z-index: 10;
 }
@@ -596,6 +417,37 @@ body {
 
 .gallery-link:hover::after {
 	width: 80%;
+}
+
+
+
+/*PAGE 7 STYLES*/
+
+
+
+#second_work_page_container {
+	height: 100%;
+}
+
+#second_work_page_container>a {
+	text-decoration: inherit;
+	height: 80%;
+	width: 95%;
+	background-color: black;
+}
+
+.note {
+	position: absolute;
+	right: 0;
+}
+
+#Glotto {
+	height: auto;
+	width: auto;
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: contain;
+	transition: all .5s;
 }
 
 
