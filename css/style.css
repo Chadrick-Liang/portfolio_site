@@ -73,6 +73,12 @@ body {
 	overflow-y: auto;
 }
 
+@media (min-width: 768px) {
+  #content {
+    overflow: hidden;
+  }
+}
+
 #navbar {
 	background-image: url('../images/ribbon.png');
 	background-repeat: no-repeat;
