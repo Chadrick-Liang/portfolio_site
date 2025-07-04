@@ -99,7 +99,7 @@ body {
   }
 }*/
 
-@media (pointer: fine) {
+/*@media (pointer: fine) {
   html, body {
     overflow: hidden;
     height: 100vh;
@@ -110,8 +110,9 @@ body {
 	}
 }
 
-/* On coarse‐pointer devices (touchscreens), allow scroll */
-@media (pointer: coarse) and (max-device-width: 767px){
+ On coarse‐pointer devices (touchscreens), allow scroll 
+@media (pointer: coarse) and (max-width: 767px),
+       (pointer: coarse) and (max-height: 767px){
   html,
 	body {
 		overflow-y: auto;
@@ -121,7 +122,7 @@ body {
 	#content {
     overflow-y: auto;
   }
-}
+}*/
 
 #navbar {
 	background-image: url('../images/ribbon.png');
@@ -374,11 +375,6 @@ body {
 
 /*PAGE 6 STYLES*/
 
-/*.header {
-	position: absolute;
-	font-family: 'lucidaItalic';
-	font-size: clamp(0.75rem, 2vw, 1.5rem);
-}*/
 .header {
 	position: absolute;
 }
