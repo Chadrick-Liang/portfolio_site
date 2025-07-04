@@ -44,14 +44,14 @@
 }
 
 html {
-	background: url('../images/table.png') no-repeat center center fixed;
+	background: #000 url('../images/table.png') no-repeat center center fixed;
 	background-size: cover;
 	width: 100vw;
 	visibility: hidden;
 }
 
 html.loaded {
-	background: url('../images/table.png') no-repeat center center fixed;
+	background: #000 url('../images/table.png') no-repeat center center fixed;
 	background-size: cover;
 	width: 100vw;
 	visibility: visible;
@@ -64,6 +64,18 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100vw;
+}
+
+#content {
+  background: url('../images/table.png') no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (min-width: 768px) {
+  #content { overflow: hidden; }
 }
 
 @media screen and (min-width: 768px) {
