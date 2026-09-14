@@ -1,0 +1,11 @@
+<div class="page">
+  <article class="face front paper project-copy" id="kaggle-details" data-chapter="Projects" aria-label="Kaggle competition project details">
+  <div class="page-top"><span>Project notes</span><span>04 / 04</span></div>
+  <p class="eyebrow chapter-kicker">Classical Machine learning</p><h2 class="small-heading">ArXiv Classification</h2>
+  <p class="intro-copy">Our team, GradientGang, placed first out of 28 teams in SUTD's 2026 cohort Kaggle competition. The challenge was to classify arXiv articles into 39 categories using only classical machine learning. Our final submission achieved a macro F1-score of 0.705.</p>
+  <p>Our pipeline starts with a TF-IDF SVM that shortlists candidate categories. A two-stage XGBoost model then reranks the top three using signals from BM25 and KNN retrieval, alongside pairwise specialist classifiers that distinguish commonly confused categories. We then trained the meta-learner on out-of-fold predictions to prevent leakage between training stages.</p>
+  <ul class="tech-tags" aria-label="Built with"><li>Python</li><li>scikit-learn</li><li>XGBoost</li><li>pandas</li></ul>
+  <a class="repository-link" href="https://github.com/Chadrick-Liang/SUTD_50.007_ML_2026_Kaggle_Competition" target="_blank" rel="noopener noreferrer">Explore the repository <span aria-hidden="true">↗</span></a>
+  <div class="page-footer"><span>Selected projects</span><span>12</span></div>
+</article>
+</div>
