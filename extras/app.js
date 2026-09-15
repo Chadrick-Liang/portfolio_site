@@ -38,6 +38,7 @@
   const next = document.querySelector('#next');
   const mobileQuery = window.matchMedia('(max-width: 960px)');
   const portraitQuery = window.matchMedia('(orientation: portrait)');
+  const landscapeReaderQuery = window.matchMedia('(orientation: landscape) and (max-width: 960px), (orientation: landscape) and (hover: none) and (pointer: coarse)');
   const motionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
   const dialog = document.querySelector('#image-dialog');
   let imageTrigger = null;
@@ -124,9 +125,12 @@
     return copy;
   }
 
-  // Layout only: measure real content so the fixed canvas never shrinks reading text.
+  // Measure complete pages before fitting the mobile spread to the viewport.
   function dimensions() {
-    const width = Math.floor(shell.getBoundingClientRect().width);
+    const fitLandscape = landscapeReaderQuery.matches;
+    shell.style.removeProperty('width');
+    const availableWidth = Math.floor(shell.getBoundingClientRect().width);
+    const width = fitLandscape ? 1080 : availableWidth;
     const measure = document.createElement('div');
     measure.className = 'page-measure';
     measure.inert = true;
@@ -138,6 +142,18 @@
     const minimum = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--book-height'));
     const height = Math.ceil(Math.max(minimum, ...copies.map(copy => copy.getBoundingClientRect().height)));
     measure.remove();
+    if (fitLandscape) {
+      const availableHeight = document.querySelector('.book-stage').clientHeight;
+      const scale = Math.min(availableWidth / width, availableHeight / height);
+      book.style.setProperty('--page-width', (width / 2) + 'px');
+      book.style.setProperty('--page-height', height + 'px');
+      book.style.setProperty('--page-scale', scale);
+      shell.style.width = (width * scale) + 'px';
+      return { width: width * scale, height: height * scale };
+    }
+    book.style.removeProperty('--page-width');
+    book.style.removeProperty('--page-height');
+    book.style.removeProperty('--page-scale');
     return { width, height };
   }
 
@@ -264,10 +280,13 @@
     $book.turn('page', page);
     syncReader();
   }
-  window.addEventListener('resize', () => {
+  function scheduleResize() {
     cancelAnimationFrame(resizeFrame);
     resizeFrame = requestAnimationFrame(() => { resizeBook(); renderViewer(); });
-  });
+  }
+  window.addEventListener('resize', scheduleResize);
+  window.visualViewport?.addEventListener('resize', scheduleResize);
+  landscapeReaderQuery.addEventListener('change', scheduleResize);
   document.fonts?.ready.then(resizeBook);
   motionQuery.addEventListener('change', () => {
     $book.turn('stop');

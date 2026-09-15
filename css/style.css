@@ -647,7 +647,7 @@ main {
   -webkit-text-fill-color:transparent;
   color:transparent;
   text-shadow:none;
-  animation:gold_shift 8s linear infinite
+  animation:gold_shift 2s linear infinite
 }
 
 .cover-title p {
@@ -1935,6 +1935,43 @@ html:not(.js) .reader-controls,html:not(.js) .cover-open {
   }
   .dialog-toolbar button {
     font-size:10px
+  }
+}
+
+/* Fit complete pages in landscape; Turn.js retains unscaled pointer coordinates. */
+@media screen and (orientation:landscape) and (max-width:960px),
+       screen and (orientation:landscape) and (hover:none) and (pointer:coarse) {
+  html.js {
+    overflow-x:hidden
+  }
+  html.js .site-header {
+    display:none
+  }
+  html.js main {
+    padding:0 0 20px
+  }
+  html.js .book-stage {
+    height:100vh;
+    height:100dvh;
+    padding:0;
+    display:flex;
+    align-items:center;
+    overflow:clip;
+    overflow-clip-margin:0
+  }
+  html.js .book-shell {
+    width:100%;
+    flex-shrink:0
+  }
+  html.js .book {
+    transition:none
+  }
+  html.js .book .page .face {
+    width:var(--page-width);
+    height:var(--page-height);
+    min-height:0;
+    transform:scale(var(--page-scale));
+    transform-origin:top left
   }
 }
 
